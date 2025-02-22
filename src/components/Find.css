@@ -1,0 +1,131 @@
+.find-1 {
+  background: linear-gradient(#86bbf1, #d2eaef);
+  height: 434px;
+}
+
+.find-1left h1 {
+  padding-top: 60px;
+  color: #274760;
+  font-weight: bold;
+  line-height: 64px;
+  font-size: 54px;
+}
+
+.find-1left p {
+  padding-top: 30px;
+  color: #274760;
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.btns {
+  margin: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns p {
+  color: #27476057;
+  font-size: 16px;
+}
+
+.btns-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btns button {
+  background-color: transparent;
+  color: #274760;
+  border: none;
+  border-radius: 15px;
+  border: 1px solid #307bc4;
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: all ease-in-out 0.3s;
+}
+
+.btns button:hover {
+  background-color: #307bc4;
+  color: white;
+}
+
+.btns-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.crd img {
+  width: 415px;
+  height: 415px;
+}
+.card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 757px;
+  width: 453px;
+  background-color: #4894e021;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #2747609c;
+}
+
+.tit {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tit p {
+  color: #274760;
+}
+
+.tit h3 {
+  font-size: 25px;
+  color: #274760;
+}
+
+.title {
+  padding-top: 35px;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+  gap: 20px;
+  flex-direction: column;
+  padding-bottom: 29px;
+}
+
+.find-2-parent {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.find-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.find-3 img {
+  margin-top: 100px;
+  width: 1296px;
+}
+
+.li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 * {
   margin: 0;
@@ -16,4 +16,9 @@
   display: flex;
   justify-content: space-between;
   align-content: inherit;
+}
+
+a.active {
+  color: cadetblue;
+  font-weight: 700;
 }

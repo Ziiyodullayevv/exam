@@ -1,0 +1,137 @@
+body {
+  background-color: whitesmoke;
+}
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+}
+.A-parent {
+  background-color: #bcd8e9;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  display: flex;
+}
+.A-child {
+  margin-top: -150px;
+  padding: 10px;
+}
+
+.A-child h2 {
+  color: rgba(39, 71, 96, 1);
+  font-size: 54px;
+}
+.A-child h4 {
+  color: rgba(39, 71, 96, 1);
+  font-size: 24px;
+}
+.A-parent1 {
+  border-radius: 50px;
+  margin-left: 215px;
+  position: relative;
+  height: 831px;
+  width: 1076px;
+  bottom: 140px;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.A-input {
+  position: absolute;
+  margin-left: 115px;
+  display: flex;
+}
+.A-name {
+  width: 321px;
+  height: 121px;
+
+  margin-left: 120px;
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+.A-name1 {
+  display: flex;
+  width: 637px;
+  height: 121px;
+  margin-left: -320px;
+  margin-top: 183px;
+}
+.A-name2 {
+  width: 645px;
+  height: 234px;
+  margin-left: -640px;
+  margin-top: 330px;
+}
+.dev input {
+  height: 60px;
+  width: 294px;
+  padding: 15px;
+  color: gray;
+  margin-top: 10px;
+  border: 1px solid rgba(48, 123, 196, 0.5);
+  border-radius: 15px;
+}
+.dev1 input {
+  height: 60px;
+  width: 623px;
+  padding: 15px;
+  color: gray;
+  margin-top: 10px;
+  border: 1px solid rgba(48, 123, 196, 0.5);
+  border-radius: 15px;
+}
+.dev2 input {
+  width: 645px;
+  height: 234px;
+  margin-left: -1px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(48, 123, 196, 0.5);
+}
+.A-btn button {
+  background: linear-gradient(107.31deg, #307bc4 0%, #274760 100%);
+  background-color: rgba(39, 71, 96, 0.17);
+  border-radius: 24px;
+  margin-left: -620px;
+  margin-top: 640px;
+  text-align: center;
+  color: white;
+  width: 164px;
+  height: 50px;
+}
+.A-cards {
+  gap: 25px;
+  width: 400px;
+  height: 120px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 70px;
+  text-align: start;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(210, 234, 239, 0.5);
+}
+.A-contact {
+  background-color: black;
+}
+.A-center {
+  display: flex;
+}
+.A- h1 {
+  color: rgba(39, 71, 96, 1);
+  margin-left: 80px;
+  font-size: 52px;
+}
+
+.map iframe {
+  border-radius: 30px;
+
+  margin-top: 90px;
+}

@@ -1,0 +1,77 @@
+.hero {
+  background: linear-gradient(119.31deg, #d2eaef 17.16%, #86bbf1 89.78%);
+}
+
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.hero-left h2 {
+  font-size: 51px;
+  color: #274760;
+}
+.hero-left p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #274760;
+}
+.cad-parent {
+  margin-top: 20px;
+  gap: 50px;
+  width: 1390px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cad {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 416px;
+  height: 352px;
+  top: 512.66px;
+  left: 72px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 21px 1px #307bc41a;
+}
+.cad div {
+  gap: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.cad div h3 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #274760;
+}
+.cad p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.let-parent {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.let-left img {
+  width: 400px;
+}
+.let-right h2 {
+  color: #274760;
+  font-size: 54px;
+}
+.let-right p {
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #274760;
+}
