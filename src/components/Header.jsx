@@ -6,7 +6,7 @@ export default function Header() {
     <header className=' backdrop-blur-3xl !py-3'>
       <div className='container text-center'>
         <div className='header-parent'>
-          <div className='header-left flex items-center gap-4'>
+          <div className='header-left flex items-center text-start gap-4'>
             <img src='/logo.svg' alt='logo' />
             <NavLink
               className={({ isActive }) => (isActive ? 'active' : undefined)}
